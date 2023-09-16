@@ -1,0 +1,9 @@
+services:
+  postgres:
+    image: 'postgres:latest'
+    environment:
+      - 'POSTGRES_DB=rinha_back'
+      - 'POSTGRES_PASSWORD=kmjp2003'
+      - 'POSTGRES_USER=postgres'
+    ports:
+      - '5432'
